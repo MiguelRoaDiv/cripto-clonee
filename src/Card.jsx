@@ -2,7 +2,7 @@ import "./Card.css"
 import Graph from "./Graph"
 import {colorDec} from './App'
 
-export default function Card({coinId, cur, porcentaje, price, img}){ // card con las props de la consulta API
+export default function Card({coinId, cur, porcentaje, price, img}){ // card con las props de la consulta API 
     return (
         <div className="card">
             <img src={img} alt=""/>
